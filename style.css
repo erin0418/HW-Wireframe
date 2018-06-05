@@ -1,0 +1,34 @@
+header, footer, nav {
+    color: black;
+    background-color: #ebebeb;
+    text-align: center;
+}
+body {
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+article {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+}
+h1, p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+}
+section {
+    color: black;
+    background-color: #ebebeb;
+    float: left;
+    width: 495px;
+    text-align: center;
+}
+aside {
+    color: black;
+    background-color: #ebebeb;
+    text-align: center;
+}
