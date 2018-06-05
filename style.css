@@ -2,6 +2,8 @@ header, footer, nav {
     color: black;
     background-color: #ebebeb;
     text-align: center;
+    margin-left: 400px;
+    width: 495px;
 }
 body {
     color: #777;
@@ -24,8 +26,9 @@ section {
     color: black;
     background-color: #ebebeb;
     float: left;
-    width: 495px;
+    width: 247px;
     text-align: center;
+    margin-left: 400px;
 }
 aside {
     color: black;
