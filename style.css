@@ -1,9 +1,31 @@
-header, footer, nav {
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+header {
     color: black;
     background-color: #ebebeb;
     text-align: center;
-    margin-left: 400px;
-    width: 495px;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: 12px;
+}
+nav {
+    color: black;
+    background-color: #ebebeb;
+    text-align: center;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+footer {
+    color: black;
+    background-color: #ebebeb;
+    text-align: center;
+    clear: both;
+    width: 960px;
+    padding: 20px;
+    margin-top: 16px;
 }
 body {
     color: #777;
@@ -11,27 +33,51 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 15%;
 }
 article {
     color: #ebebeb;
     background: #777;
     text-align: center;
+    overflow: auto;
+    margin-bottom: 15px;
+    margin-top: 40px;
 }
-h1, p {
+#h1 {
     color: #777;
     background: #ebebeb;
     text-align: center;
+    width: 400px;
+    margin-left: 30px;
+    margin-top: 40px;
+    padding: 20px;
+}
+p {
+    color: #777;
+    background: #ebebeb;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    padding: 20px;
 }
 section {
     color: black;
     background-color: #ebebeb;
-    float: left;
-    width: 247px;
     text-align: center;
-    margin-left: 400px;
+    /* overflow: auto; */
+    padding: 10px;
+    float: left;
+    margin-bottom: 15px;
+    width: 470px;
+    margin-right: 20px;
 }
 aside {
     color: black;
     background-color: #ebebeb;
     text-align: center;
+    float: left;
+    width: 470px;
+    height: 318px;
+    padding: 10px;
 }
